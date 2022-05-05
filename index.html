@@ -1,0 +1,21 @@
+<html>
+   <body>
+      
+      <form action = "http://127.0.0.1:8081/add_user" method = "GET">
+         First Name: <input type = "text" name = "first_name">  <br>
+         Last Name: <input type = "text" name = "last_name">
+         <input id="submit" type = "submit" value = "Submit">
+      </form>
+
+      <form action = "http://127.0.0.1:8081/user" method = "GET">
+        <input id="getUsers" type="submit" value="Show users">
+      </form>
+      <!-- Duzo czasu probowalem zrobic liste userow za pomoca wysylania requesta "fetch", lub "XMLHttpRequest" i ciagle mialem
+    blad z CORS 'Access-Control-Allow-Origin' i juz nie wiem co robic wiec bedzie tak troche niewygodnie--> 
+
+    <form action = "http://127.0.0.1:8081/delete_all_users" method = "GET">
+        <input type="submit" value="Delete all users">
+      </form>
+   </body>
+
+</html>
